@@ -31,8 +31,8 @@ jobs:
         run: |
           pwd
           ls -la
-          ls -la k8s
+          ls -la K8s
 
       - name: Apply Kubernetes manifests
         run: |
-          kubectl apply -f k8s/
+          kubectl apply -R -f K8s/
