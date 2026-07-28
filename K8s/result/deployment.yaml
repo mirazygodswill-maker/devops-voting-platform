@@ -25,14 +25,14 @@ spec:
         - containerPort: 80
 
         env:
-        - name: POSTGRES_HOST
+        - name: PG_HOST
           value: postgres-service
 
-        - name: POSTGRES_USER
+        - name: PG_USER
           value: postgres
 
-        - name: POSTGRES_PASSWORD
+        - name: PG_PASSWORD
           value: postgres
 
-        - name: POSTGRES_DB
+        - name: PG_DATABASE
           value: postgres
